@@ -1,13 +1,20 @@
 # Twitter networks
 
-#### Twitter API:
-- Get Tweet timelines (https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline.html)
-- Search Tweets (https://developer.twitter.com/en/docs/tweets/search/overview)
-- Subscribe to account activity (https://developer.twitter.com/en/docs/accounts-and-users/subscribe-account-activity/overview)
-- Get Tweet Engagements (https://developer.twitter.com/en/docs/metrics/get-tweet-engagement/overview)
-- Follow, search, and get users (https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/overview)
+### .env config
 
-## Twitter sample API requests:
+```
+PORT=<port_number>
+TWITTER_CONSUMER_KEY=<token>
+TWITTER_CONSUMER_SECRET=<token>
+TWITTER_ACCESS_TOKEN_KEY=<token>
+TWITTER_ACCESS_TOKEN_SECRET=<token>
+TWITTER_BEARER_TOKEN=<token>
+```
+
+## Twitter API
+
+**[Twitter API reference index](https://developer.twitter.com/en/docs/api-reference-index)**
+
 
 ##### 1. Get followers ids list of 'twitterdev'.
 ```bash
