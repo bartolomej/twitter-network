@@ -4,6 +4,7 @@
 
 ```
 PORT=<port_number>
+MODE=<enviroment>
 TWITTER_CONSUMER_KEY=<token>
 TWITTER_CONSUMER_SECRET=<token>
 TWITTER_ACCESS_TOKEN_KEY=<token>
