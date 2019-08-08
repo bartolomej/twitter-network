@@ -10,7 +10,7 @@ app.get('/graph', (req, res) => {
 });
 
 app.get('/api/graph', async (req, res) => {
-  res.send(await getGraph());
+  res.send(await getGraph(20));
 });
 
 export default app;

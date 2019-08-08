@@ -40,3 +40,12 @@ curl --request POST \
                 "toDate":"201802282359"
           }'
 ```
+
+## TODO
+
+- [ ] Extract useful Cypher queries - help with [this](https://www.remwebdevelopment.com/blog/sql/some-basic-and-useful-cypher-queries-for-neo4j-201.html) website
+- [ ] Cypher MATCH patterns [guide](https://neo4j.com/docs/cypher-manual/current/clauses/match/#match-variable-length-relationships)
+- [ ] Learn from [example project](https://neo4j.com/developer/example-project/)
+- [ ] Subscribe to account activity [here](https://developer.twitter.com/en/docs/accounts-and-users/subscribe-account-activity/api-reference/aaa-premium)
+- [ ] Setup streaming network activity with [web-sockets](https://www.npmjs.com/package/express-ws)
+

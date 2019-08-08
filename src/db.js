@@ -64,7 +64,7 @@ export const getUsers = async (limit) => {
   return users.records.map(user => user._fields[0].properties)
 };
 
-export const getGraph = async () => {
+export const getGraph = async (limit) => {
   return await session
-    .run(`START n=node(*) MATCH (n)-[r]->(m) RETURN n,r,m`);
+    .run(`START n=node(*) MATCH (n)-[r]->(m) RETURN n,r,m ${limit ? `LIMIT ${limit}` : ''}`);
 };
